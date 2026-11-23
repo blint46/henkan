@@ -4,4 +4,7 @@ import { defineConfig } from "wxt";
 export default defineConfig({
   modules: ["@wxt-dev/module-react"],
   srcDir: "src",
+  webExt: {
+    startUrls: ["https://developer.mozilla.org/en-US/"],
+  },
 });
